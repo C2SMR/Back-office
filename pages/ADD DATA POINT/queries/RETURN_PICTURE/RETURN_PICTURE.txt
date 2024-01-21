@@ -1,0 +1,1 @@
+select picture from CITY where NAME = {{city.selectedOptionLabel}};

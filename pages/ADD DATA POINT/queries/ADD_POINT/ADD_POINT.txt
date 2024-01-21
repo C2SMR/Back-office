@@ -1,0 +1,1 @@
+insert into line(ville,type,x1,x2,y1,y2) values({{city.selectedOptionLabel}},{{type.text}},{{x1.text}},{{x2.text}},{{y1.text}},{{y2.text}});

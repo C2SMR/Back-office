@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CALCULATE_CURSOR",
+    "pageId": "ADD DATA POINT",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "ADD DATA POINT_CALCULATE_CURSOR",
+  "deleted": false,
+  "gitSyncId": "65ac420fc3b84e4836ab538b_65ad05c46e6ba36f5ec21aa8"
+}

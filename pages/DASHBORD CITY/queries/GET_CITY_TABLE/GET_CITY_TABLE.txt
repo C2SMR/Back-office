@@ -1,0 +1,5 @@
+select NAME, latitude,longitude,color_flag,number_beach,number_sea,
+(select count(ID) from WARNINGS WHERE CITY = CITY.NAME and color = 0) as nb_waring_green ,
+(select count(ID) from WARNINGS WHERE CITY = CITY.NAME and color = 1) as nb_waring_orange,
+(select count(ID) from WARNINGS WHERE CITY = CITY.NAME and color = 2) as nb_waring_red
+from CITY
